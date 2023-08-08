@@ -1,8 +1,10 @@
-body{
-    background-color: rgb(191, 182, 236);
-    color:rgb(90, 9, 9);
-}
-
-div{
-    color:rgb(90, 9, 9);
-}
+.flex-container {
+    display: flex;
+    background-color: rgb(62, 61, 63);
+    flex-direction: column;
+  }
+  .flex-container > div {
+    background-color: #989e9e;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;}
